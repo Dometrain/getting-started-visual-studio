@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>xUnit Fact (AAA)</Title>
+      <Shortcut>fact</Shortcut>
+      <Description>Arrange/Act/Assert </Description>
+      <Author>Dometrain</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Imports>
+        <Import><Namespace>Xunit</Namespace></Import>
+      </Imports>
+      <Declarations>
+        <Literal>
+          <ID>method</ID>
+          <ToolTip>The method name</ToolTip>
+          <Default>MethodUnderTest</Default>
+        </Literal>
+        <Literal>
+          <ID>scenario</ID>
+          <ToolTip>The scenario or condition</ToolTip>
+          <Default>WhenConditionIsMet</Default>
+        </Literal>
+        <Literal>
+          <ID>expected</ID>
+          <ToolTip>Expected result</ToolTip>
+          <Default>ShouldReturnExpectedValue</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp"><![CDATA[[Fact]
+public void $method$_$scenario$_$expected$()
+{
+    // Arrange
+    $end$
+
+    // Act
+
+    // Assert
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

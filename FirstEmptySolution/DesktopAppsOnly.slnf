@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "FirstEmptySolution.sln",
+    "projects": [
+      "src\\ConsoleApp\\ConsoleApp.csproj",
+      "src\\WinFormsApp\\WinFormsApp.csproj"
+    ]
+  }
+}

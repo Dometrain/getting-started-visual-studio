@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "TestFullApp",
+    "Projects": [
+      {
+        "Path": "..\\FirstConsoleApp\\WebApplication\\WebApplication.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "src\\ConsoleApp\\ConsoleApp.csproj",
+        "Action": "Start",
+        "DebugTarget": "ConsoleApp"
+      }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/docs/">
+    <File Path="readme.md" />
+  </Folder>
+  <Folder Name="/docs/ModuleNotes/">
+    <File Path="docs/ModuleNotes/Module5.txt" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC#/Snippets/1033/Visual C#/ctor.snippet" />
+    <File Path="C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC#/Snippets/1033/Visual C#/cw.snippet" />
+    <File Path="C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC#/Snippets/1033/Visual C#/for.snippet" />
+    <File Path="C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC#/Snippets/1033/Visual C#/mbox.snippet" />
+    <File Path="C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC#/Snippets/1033/Visual C#/switch.snippet" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="docs/snippets/aaa.snippet" />
+    <File Path="docs/snippets/guard.snippet" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="../FirstConsoleApp/WebApplication/WebApplication.csproj">
+      <Platform Solution="Release|x64" Project="x64" />
+      <Platform Solution="Release|x86" Project="x86" />
+    </Project>
+    <Project Path="src/WebBlazorApp/WebBlazorApp.csproj" Id="c7c94ebc-981a-4cb8-b0a0-f7c2e19340c5" />
+  </Folder>
+  <Folder Name="/src/WinformApps/">
+    <Project Path="src/ConsoleApp/ConsoleApp.csproj">
+      <Platform Solution="*|x86" Project="x86" />
+      <Platform Solution="Release|x64" Project="x64" />
+    </Project>
+    <Project Path="src/WinFormsApp/WinFormsApp.csproj" Id="f402a0f2-617d-4d0d-a2c9-7205bed437bb" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ConsoleAppTests/ConsoleAppTests.csproj" />
+  </Folder>
+</Solution>
